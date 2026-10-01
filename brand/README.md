@@ -15,7 +15,7 @@ textos de mentoor.cl. Pendiente de confirmar con el código de la app (Claude Co
 - Tarjetas muy redondeadas (~40px), borde sutil, fondo oscuro. Una tarjeta de ámbar destacada por pieza.
 - Contador de días/horas/min en ámbar como elemento recurrente.
 - Etiquetas pequeñas en mayúsculas con espaciado ("CALENDARIO PAES · REGULAR").
-- Logo: cuadrado redondeado ámbar con "M" negra. "by QUANTTUM" solo si está confirmado su uso en redes.
+- Logo: cuadrado redondeado ámbar con "M" negra. "by QUANTTUM": uso en redes confirmado por Karina (1-oct-2026).
 
 ## Voz
 - Cercana y tranquilizadora: "Tranquilo/a, vamos paso a paso." · "con información y no con rumores".
