@@ -1,0 +1,12 @@
+/* Kit de marca Mentoor — usar en todas las piezas */
+@font-face{font-family:"Instrument Serif";src:url("fonts/InstrumentSerif-Regular.ttf")}
+@font-face{font-family:"Instrument Serif";font-style:italic;src:url("fonts/InstrumentSerif-Italic.ttf")}
+@font-face{font-family:"Instrument Sans";font-weight:400;src:url("fonts/InstrumentSans-Regular.ttf")}
+@font-face{font-family:"Instrument Sans";font-weight:700;src:url("fonts/InstrumentSans-Bold.ttf")}
+:root{
+  --bg:#101216; --bg2:#181b21; --bg3:#21252e;
+  --text:#f3f4f6; --dim:#aeb3bd; --muted:#727885;
+  --accent:#f5a623; --accent-ink:#1a1205; --accent-soft:rgba(245,166,35,.14);
+  --line:rgba(255,255,255,.08); --ok:#34d399;
+  --serif:"Instrument Serif",Georgia,serif; --sans:"Instrument Sans",system-ui,sans-serif;
+}
