@@ -14,3 +14,20 @@
   --ink:var(--on-accent); --line:var(--border);
   --sans:"Inter",system-ui,sans-serif;
 }
+
+/* Variante fondo ámbar (excepción autorizada para redes). Uso: <div class="s amb"> */
+.amb{background:var(--accent-gradient)!important;color:var(--on-accent)!important}
+.amb::before{background:radial-gradient(700px 700px at 100% 0%,rgba(255,255,255,.28),transparent 60%),repeating-linear-gradient(0deg,transparent 0 59px,rgba(26,18,8,.05) 59px 60px)!important}
+.amb .tag,.amb .top{color:var(--on-accent)!important}
+.amb .top .pg,.amb .foot,.amb .note{color:rgba(26,18,8,.7)!important}
+.amb h1,.amb h2,.amb p,.amb b{color:var(--on-accent)!important}
+.amb p{opacity:.85}
+.amb em{color:var(--on-accent)!important;font-style:normal;background:linear-gradient(transparent 64%,rgba(255,255,255,.6) 64% 92%,transparent 92%);padding:0 4px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.amb .big{color:var(--on-accent)!important}
+.amb .chip{background:rgba(26,18,8,.12)!important;border-color:rgba(26,18,8,.25)!important;color:var(--on-accent)!important}
+.amb .card{background:var(--on-accent)!important;border-color:var(--on-accent)!important}
+.amb .card .r{color:#d9c9a8!important;border-color:rgba(255,255,255,.12)!important}.amb .card .r b{color:#fff!important}.amb .card .w{color:var(--accent)!important}
+.amb .total{background:rgba(26,18,8,.12)!important;border-color:var(--on-accent)!important}.amb .total span,.amb .total b{color:var(--on-accent)!important}
+.amb .cta{background:var(--on-accent)!important;color:var(--accent)!important}
+.amb .logo{background:var(--on-accent)!important;color:var(--accent)!important;box-shadow:none!important}
+.amb .bar .t{background:rgba(26,18,8,.18)!important}.amb .bar .f{background:var(--on-accent)!important}.amb .bar .k{background:#fff!important}

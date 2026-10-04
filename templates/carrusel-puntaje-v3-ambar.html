@@ -1,0 +1,78 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../brand/redes.css">
+<style>
+*{box-sizing:border-box;margin:0}body{background:#000}
+.s{width:1080px;height:1350px;background:var(--bg);color:var(--text);font-family:var(--sans);padding:96px 88px 84px;display:flex;flex-direction:column;position:relative;overflow:hidden}
+.s::before{content:"";position:absolute;inset:0;background:
+ radial-gradient(700px 700px at 100% 0%,rgba(245,158,11,.22),transparent 65%),
+ repeating-linear-gradient(0deg,transparent 0 59px,rgba(255,255,255,.035) 59px 60px);pointer-events:none}
+.s>*{position:relative}
+.top{display:flex;justify-content:space-between;align-items:center;font-size:24px;letter-spacing:5px;text-transform:uppercase;color:var(--amber);font-weight:700}
+.top .pg{color:var(--muted);letter-spacing:3px}
+.big{font-family:var(--sans);font-weight:900;font-size:430px;line-height:.85;color:var(--amber);margin-top:60px;letter-spacing:-14px}
+h1{font-family:var(--sans);font-weight:900;font-size:124px;line-height:1.02;letter-spacing:-3px;margin-top:150px}
+h1 em{color:var(--amber);font-style:normal}
+h2{font-family:var(--sans);font-weight:900;font-size:88px;line-height:1.05;letter-spacing:-2px;margin-top:34px}
+h2 em{color:var(--amber);font-style:normal}
+p{font-size:38px;line-height:1.45;color:var(--dim);margin-top:34px;max-width:820px}
+p b{color:var(--text)}
+.foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;font-size:26px;color:var(--muted)}
+.logo{width:68px;height:68px;border-radius:22px;background:var(--logo-gradient);color:var(--logo-letra);font-family:var(--sans);font-weight:900;font-size:42px;display:flex;align-items:center;justify-content:center}
+.card{background:var(--card);border:1px solid var(--line);border-radius:36px;padding:14px 38px;margin-top:40px}
+.r{display:flex;justify-content:space-between;align-items:baseline;padding:26px 0;border-bottom:1px solid var(--line);font-size:36px;color:var(--dim)}
+.r:last-child{border:0}.r b{color:var(--text);font-size:42px;font-weight:700}
+.r .w{color:var(--amber);font-weight:700;margin-left:14px;font-size:30px}
+.total{background:var(--amber-soft);border:1.5px solid var(--amber);border-radius:36px;padding:34px 44px;margin-top:22px;display:flex;justify-content:space-between;align-items:baseline}
+.total span{font-size:34px;color:var(--amber);font-weight:700}.total b{font-family:var(--sans);font-size:120px;color:var(--amber);line-height:1;font-weight:900}
+.chips{display:flex;flex-wrap:wrap;gap:16px;margin-top:44px}
+.chip{font-size:32px;padding:18px 30px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--text)}
+.bar{margin-top:56px}.bar .t{height:22px;border-radius:999px;background:rgba(255,255,255,.08);position:relative}
+.bar .f{position:absolute;left:0;top:0;bottom:0;border-radius:999px;background:var(--amber-grad)}
+.bar .k{position:absolute;top:-16px;width:4px;height:54px;background:var(--text);border-radius:2px}
+.bar .l{display:flex;justify-content:space-between;font-size:28px;color:var(--muted);margin-top:30px}
+.cta{align-self:flex-start;margin-top:56px;background:var(--amber-grad);color:var(--ink);font-weight:700;font-size:40px;padding:32px 56px;border-radius:999px}
+.note{font-size:26px;color:var(--muted);margin-top:26px}
+</style></head><body>
+
+<div class="s amb" id="s1"><div class="top"><span>Mentoor · PAES</span><span class="pg">01/06</span></div>
+<h1>Tu puntaje ponderado,<br><em>paso a paso.</em></h1>
+<p>Sin planillas enredadas. Desliza y míralo en 4 pasos.</p>
+<div class="foot"><span>@mentoor.cl</span><div class="logo">M</div></div></div>
+
+<div class="s amb" id="s2"><div class="top"><span>Paso</span><span class="pg">02/06</span></div>
+<div class="big">1</div><h2>Reúne tus <em>puntajes</em></h2>
+<div class="chips"><span class="chip">NEM</span><span class="chip">Ranking</span><span class="chip">C. Lectora</span><span class="chip">Mat. M1</span><span class="chip">Electiva</span></div>
+<p>Todos en escala de <b>100 a 1000</b>. Si tu carrera lo pide, suma M2.</p>
+<div class="foot"><span>@mentoor.cl</span><div class="logo">M</div></div></div>
+
+<div class="s amb" id="s3"><div class="top"><span>Paso</span><span class="pg">03/06</span></div>
+<div class="big">2</div><h2>Mira las <em>ponderaciones</em></h2>
+<p>Cada carrera da un <b>peso distinto</b> a cada puntaje. Los pesos suman 100%.</p>
+<p>Ejemplo ilustrativo: NEM 20 · Ranking 20 · Lectora 20 · M1 25 · Electiva 15.</p>
+<div class="foot"><span>@mentoor.cl</span><div class="logo">M</div></div></div>
+
+<div class="s amb" id="s4"><div class="top"><span>Paso</span><span class="pg">04/06</span></div>
+<h2 style="margin-top:56px">3. Multiplica y <em>suma</em></h2>
+<div class="card">
+<div class="r"><span>NEM 700 <span class="w">× 20%</span></span><b>140</b></div>
+<div class="r"><span>Ranking 750 <span class="w">× 20%</span></span><b>150</b></div>
+<div class="r"><span>C. Lectora 650 <span class="w">× 20%</span></span><b>130</b></div>
+<div class="r"><span>M1 800 <span class="w">× 25%</span></span><b>200</b></div>
+<div class="r"><span>Electiva 600 <span class="w">× 15%</span></span><b>90</b></div></div>
+<div class="total"><span>Puntaje ponderado</span><b>710</b></div>
+<div class="foot"><span>Ejemplo ilustrativo, no es una carrera real</span><div class="logo">M</div></div></div>
+
+<div class="s amb" id="s5"><div class="top"><span>Paso</span><span class="pg">05/06</span></div>
+<div class="big">4</div><h2>Compáralo con el <em>corte</em></h2>
+<div class="bar"><div class="t"><div class="f" style="width:71%"></div><div class="k" style="left:73%"></div></div>
+<div class="l"><span>100</span><span>corte (ejemplo)</span><span>1000</span></div></div>
+<p>Si tu ponderado queda cerca o sobre el corte de años anteriores, tienes opciones reales.</p>
+<div class="foot"><span>Cortes referenciales · verifica en demre.cl</span><div class="logo">M</div></div></div>
+
+<div class="s amb" id="s6"><div class="top"><span>Mentoor · gratis</span><span class="pg">06/06</span></div>
+<h1 style="margin-top:130px">Hazlo en <em>segundos.</em></h1>
+<p>Tranquilo/a, vamos paso a paso. Simula tus opciones con las ponderaciones de cada carrera.</p>
+<div class="cta">Instalar gratis · link en la bio</div>
+<div class="note">Guárdalo para cuando lo necesites.</div>
+<div class="foot"><span>@mentoor.cl</span><div class="logo">M</div></div></div>
+</body></html>
