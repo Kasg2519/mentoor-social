@@ -1,11 +1,11 @@
 # Respuestas tipo para comentarios y mensajes (@mentoor.cl)
 
-Voz: tú (nunca voseo), cercana, tranquila. "Tranquilo/a, vamos paso a paso." Máximo 2–3 líneas. Responder dentro de 24 horas.
+Voz: tú (nunca voseo), SIN emojis en las respuestas a comentarios (decisión de Karina, 4-oct-2026), cercana, tranquila. "Tranquilo/a, vamos paso a paso." Máximo 2–3 líneas. Responder dentro de 24 horas.
 Datos de la web (mentoor.cl): gratis · se instala sin App Store · universidades, CFT e institutos de todo Chile · datos oficiales (MINEDUC, DEMRE y las instituciones).
 
 ## Preguntas frecuentes
 **¿Es gratis?**
-Sí, 100% gratis 💛 Instálala desde el link de la bio.
+Sí, 100% gratis Instálala desde el link de la bio.
 
 **¿Cómo la instalo? ¿Está en la App Store?**
 No necesitas la App Store: la instalas desde el link de la bio y funciona como una app. Si te trabas, escríbenos y te ayudamos.
@@ -29,12 +29,12 @@ Sirve desde 1° medio: puedes ir registrando tus notas y ensayos y ver tu avance
 La PAES Regular es el 30 de noviembre de 2026 (calendario DEMRE). Revisa siempre demre.cl por si hay cambios.
 
 ## Comentarios de ánimo ("qué bueno", "gracias")
-- ¡Gracias por tu mensaje! 💛 Cuéntanos qué carrera quieres simular.
+- ¡Gracias por tu mensaje! Cuéntanos qué carrera quieres simular.
 - Ánimo, vamos paso a paso. Aquí estamos para ayudarte.
 
 ## Dudas que no sabemos o piden algo fuera de lo que hace Mentoor
 - Buena pregunta. Por ahora no tenemos esa información confirmada, y preferimos no inventarla. Revisa demre.cl o la web de la institución.
-- Gracias por avisarnos 🙏 Lo anotamos para mejorar.
+- Gracias por avisarnos Lo anotamos para mejorar.
 
 ## Errores o problemas con la app
 - Lamentamos el problema. ¿Nos cuentas qué celular usas y qué pantalla fallaba? Escríbenos por mensaje directo y lo revisamos.
