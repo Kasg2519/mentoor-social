@@ -20,7 +20,7 @@ Usa las ponderaciones de cada carrera y universidad, pero puede variar según el
 Sí, Mentoor te muestra universidades, CFT e institutos. Entra a Explorar y compara opciones.
 
 **¿Qué pasa con mis datos?**
-Solo te pedimos lo necesario para calcular y guardar tu progreso. (Revisar y completar con la política de privacidad oficial antes de usar esta respuesta.)
+Tus datos son tuyos. Puedes eliminar tu cuenta y tus datos directamente desde la app, en Perfil. El detalle está en la política de privacidad de mentoor.cl.
 
 **¿Para qué curso sirve? Estoy en 3° / 2° medio**
 Sirve desde 1° medio: puedes ir registrando tus notas y ensayos y ver tu avance con calma.
