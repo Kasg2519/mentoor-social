@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76" role="img" aria-label="Mentoor">
+  <!-- Reproduce .logo-splash de src/styles.css (pantalla de acceso). Mismo
+       degradado que .sidebar-logo-bg (escritorio). No sigue al tema. -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FACC15"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="76" height="76" rx="22" fill="url(#g)"/>
+  <text x="38" y="39" text-anchor="middle" dominant-baseline="central"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="#1A1208">M</text>
+</svg>
