@@ -1,0 +1,16 @@
+/* Capa para redes: traduce los tokens OFICIALES (tokens.css) a lo que usan las plantillas.
+   Tipografía: Inter, la de la página mentoor.cl (la app usa la del sistema, que cambia por dispositivo;
+   para piezas fijas conviene una sola). */
+@import url("tokens.css");
+@font-face{font-family:"Inter";font-weight:400;src:url("fonts/inter-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Inter";font-weight:500;src:url("fonts/inter-latin-500-normal.woff2") format("woff2")}
+@font-face{font-family:"Inter";font-weight:700;src:url("fonts/inter-latin-700-normal.woff2") format("woff2")}
+@font-face{font-family:"Inter";font-weight:800;src:url("fonts/inter-latin-800-normal.woff2") format("woff2")}
+@font-face{font-family:"Inter";font-weight:900;src:url("fonts/inter-latin-900-normal.woff2") format("woff2")}
+:root{
+  --card:var(--surface); --card-2:var(--surface-2);
+  --dim:#B4B4BC; --muted:var(--text-muted);
+  --amber:var(--accent); --amber-grad:var(--accent-gradient); --amber-soft:var(--accent-soft);
+  --ink:var(--on-accent); --line:var(--border);
+  --sans:"Inter",system-ui,sans-serif;
+}

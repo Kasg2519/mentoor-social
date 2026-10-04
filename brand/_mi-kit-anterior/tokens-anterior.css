@@ -1,0 +1,16 @@
+/* Kit de marca Mentoor v2 — valores muestreados de la app real (captura de Inicio).
+   PENDIENTE: confirmar contra el código de la app. */
+@font-face{font-family:"Roboto";font-weight:400;src:url("fonts/roboto-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Roboto";font-weight:500;src:url("fonts/roboto-latin-500-normal.woff2") format("woff2")}
+@font-face{font-family:"Roboto";font-weight:700;src:url("fonts/roboto-latin-700-normal.woff2") format("woff2")}
+@font-face{font-family:"Roboto";font-weight:900;src:url("fonts/roboto-latin-900-normal.woff2") format("woff2")}
+:root{
+  --bg:#0b0a0f; --card:#17161c; --card-2:#241f19;
+  --text:#ffffff; --dim:#a3a3ab; --muted:#6f6e78;
+  --amber:#f6a00d; --amber-light:#fabf27; --amber-dark:#dc7b06;
+  --amber-grad:linear-gradient(135deg,#fabf27 0%,#f6a00d 50%,#dc7b06 100%);
+  --amber-soft:rgba(246,160,13,.14); --ink:#1a1205;
+  --line:rgba(255,255,255,.08); --ok:#34d399;
+  --radius-card:40px; --radius-pill:999px;
+  --sans:"Roboto",system-ui,sans-serif;
+}

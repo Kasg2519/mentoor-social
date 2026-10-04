@@ -1,16 +1,125 @@
-/* Kit de marca Mentoor v2 — valores muestreados de la app real (captura de Inicio).
-   PENDIENTE: confirmar contra el código de la app. */
-@font-face{font-family:"Roboto";font-weight:400;src:url("fonts/roboto-latin-400-normal.woff2") format("woff2")}
-@font-face{font-family:"Roboto";font-weight:500;src:url("fonts/roboto-latin-500-normal.woff2") format("woff2")}
-@font-face{font-family:"Roboto";font-weight:700;src:url("fonts/roboto-latin-700-normal.woff2") format("woff2")}
-@font-face{font-family:"Roboto";font-weight:900;src:url("fonts/roboto-latin-900-normal.woff2") format("woff2")}
-:root{
-  --bg:#0b0a0f; --card:#17161c; --card-2:#241f19;
-  --text:#ffffff; --dim:#a3a3ab; --muted:#6f6e78;
-  --amber:#f6a00d; --amber-light:#fabf27; --amber-dark:#dc7b06;
-  --amber-grad:linear-gradient(135deg,#fabf27 0%,#f6a00d 50%,#dc7b06 100%);
-  --amber-soft:rgba(246,160,13,.14); --ink:#1a1205;
-  --line:rgba(255,255,255,.08); --ok:#34d399;
-  --radius-card:40px; --radius-pill:999px;
-  --sans:"Roboto",system-ui,sans-serif;
+/* ═══════════════════════════════════════════════════════════════════
+   Mentoor — tokens de marca
+   Extraídos del código el 3-oct-2026. Ningún valor es inventado: cada
+   uno lleva al lado el archivo del que salió.
+
+   Fuente principal: src/styles.css (sistema de 4 temas).
+   La marca por defecto es el tema "Oscuro · ámbar" (dark-amber): es el
+   que ve todo alumno que no eligió otro (src/app/core/tema.service.ts,
+   TEMAS[0]).
+   ═══════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Color: tema por defecto, Oscuro · ámbar ──────────────────────
+     src/styles.css, bloque `:root, :root[data-theme="dark-amber"]` */
+  --bg:              #0B0B0F;   /* fondo de la app */
+  --surface:         #16161C;   /* tarjetas (.m-card, .inst-card) */
+  --surface-2:       #1F1F27;   /* tarjeta dentro de tarjeta, chips, campos */
+  --surface-3:       #2A2A35;   /* tercer nivel; borde al pasar el mouse */
+  --text:            #FFFFFF;   /* texto principal */
+  --text-muted:      #8A8A93;   /* texto secundario, rótulos */
+  --border:          #2A2A33;   /* bordes de tarjetas y separadores */
+  --accent:          #F59E0B;   /* acento ámbar: cifras, enlaces, activo */
+  --accent-gradient: linear-gradient(135deg, #FBBF24, #F59E0B, #D97706);
+  --accent-soft:     rgba(245,158,11,0.15);   /* fondo suave del acento */
+  --on-accent:       #1A1208;   /* texto SOBRE el degradado ámbar */
+
+  /* ── Color: logo "M" fijo ──────────────────────────────────────────
+     No sigue al tema: es el mismo en los 4. Lo usan la pantalla de
+     acceso (.logo-splash) y la barra lateral de escritorio
+     (.sidebar-logo-bg). src/styles.css */
+  --logo-gradient:   linear-gradient(135deg, #FACC15, #F97316);
+  --logo-letra:      #1A1208;
+
+  /* ── Color: éxito y error ──────────────────────────────────────────
+     OJO: en el código NO son variables. Son valores escritos a mano en
+     cada componente. Se anotan acá los que más se repiten, contados en
+     src/ (css + html) el 3-oct-2026. */
+  --exito:           #22c55e;                 /* 26 usos */
+  --exito-claro:     #4ade80;                 /* 12 usos */
+  --exito-texto:     #86efac;                 /* texto de avisos de éxito (auth) */
+  --exito-fondo:     rgba(34,197,94,.08);     /* fondo de avisos (auth.component.html) */
+  --exito-borde:     rgba(34,197,94,.25);
+  --error:           #ef4444;                 /* 23 usos */
+  --error-claro:     #f87171;                 /* .reg-err */
+  --error-texto:     #FCA5A5;                 /* texto de avisos de error (auth) */
+  --error-fondo:     rgba(239,68,68,.08);
+  --error-borde:     rgba(239,68,68,.25);
+
+  /* ── Sombras ───────────────────────────────────────────────────────
+     src/styles.css */
+  --accent-glow:     0 12px 40px -8px rgba(245,158,11,0.35);  /* brillo de todo lo ámbar */
+  --sombra-logo:     0 8px 32px rgba(249,115,22,.40);         /* .logo-splash */
+  --sombra-flotante: 0 8px 20px rgba(0,0,0,.4);               /* .fab-circle (botón Explorar) */
+  --sombra-panel:    0 16px 38px rgba(0,0,0,.55);             /* .calc-res-accordion-body, .ben-panel */
+
+  /* ── Radios ────────────────────────────────────────────────────────
+     src/styles.css — de menor a mayor */
+  --radio-scrollbar:  3px;    /* ::-webkit-scrollbar-thumb */
+  --radio-logo-chico: 10px;   /* .mobile-logo (36px) */
+  --radio-widget:     12px;   /* .sidebar-widget, contador de escritorio */
+  --radio-control:    14px;   /* .btn-primary, .auth-input, paneles */
+  --radio-tarjeta-l:  16px;   /* .inst-card: tarjeta de lista */
+  --radio-tarjeta:    20px;   /* .m-card: tarjeta principal */
+  --radio-logo:       22px;   /* .logo-splash (76px) */
+  --radio-pildora:    99px;   /* .inst-chip: chips y etiquetas */
+
+  /* ── Espaciados ────────────────────────────────────────────────────
+     src/styles.css */
+  --pagina-x-movil:     16px;  /* .d-main-content en celular */
+  --pagina-arriba-movil: 6px;  /* .d-main-content en celular */
+  --pagina-escritorio:  20px 28px 28px;  /* .d-main-content */
+  --separacion-bloques: 20px;  /* gap de .d-main-content */
+  --cabecera-movil:     16px 20px 14px;  /* .mobile-header-fixed (+ zona segura) */
+  --tarjeta-separacion: 16px;  /* margin-bottom de .m-card */
+  --tarjeta-l-padding:  13px;  /* .inst-card: padding y gap */
+  --tarjeta-l-separacion: 9px; /* margin-bottom de .inst-card */
+  --boton-padding:      15px 24px;  /* .btn-primary */
+  --campo-padding:      14px 16px;  /* .auth-input */
+  --chip-padding:       8px 14px;   /* .inst-chip */
+  --area-tactil-min:    44px;       /* mínimo usado en todos los botones nuevos */
+
+  /* ── Tipografía ────────────────────────────────────────────────────
+     La APP usa la fuente del sistema (src/styles.css, @theme
+     --font-sans). No hay archivos de fuente de Mentoor en el proyecto.
+     La página de presentación (public/landing.html) carga Inter desde
+     Google Fonts. Ver README.md: son dos tipografías distintas. */
+  --font-app:     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-landing: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   Los otros 3 temas que el alumno puede elegir.
+   src/styles.css — solo redefinen los colores; radios, sombras (salvo el
+   brillo) y espaciados son los mismos.
+   ═══════════════════════════════════════════════════════════════════ */
+
+[data-theme="dark-mint"] {           /* "Oscuro · menta" */
+  --bg: #0A1410; --surface: #122019; --surface-2: #182A22; --surface-3: #20382C;
+  --text: #FFFFFF; --text-muted: #8AA398; --border: #1F3329;
+  --accent: #2EE5A5;
+  --accent-gradient: linear-gradient(135deg, #5EEBB8 0%, #2EE5A5 55%, #14B881 100%);
+  --accent-soft: rgba(46,229,165,0.15);
+  --accent-glow: 0 12px 40px -8px rgba(46,229,165,0.30);
+  --on-accent: #062017;
+}
+
+[data-theme="light-indigo"] {        /* "Claro · índigo" */
+  --bg: #F4F5F9; --surface: #FFFFFF; --surface-2: #ECEDF3; --surface-3: #E4E6F0;
+  --text: #0F1020; --text-muted: #6B6B7A; --border: #E2E3EB;
+  --accent: #6366F1;
+  --accent-gradient: linear-gradient(135deg, #818CF8 0%, #6366F1 55%, #4F46E5 100%);
+  --accent-soft: rgba(99,102,241,0.12);
+  --accent-glow: 0 12px 40px -8px rgba(99,102,241,0.30);
+  --on-accent: #FFFFFF;
+}
+
+[data-theme="light-coral"] {         /* "Claro · coral" */
+  --bg: #FBF5F2; --surface: #FFFFFF; --surface-2: #F5EAE5; --surface-3: #F0E2DB;
+  --text: #1A0F0C; --text-muted: #7A6660; --border: #EBDDD6;
+  --accent: #E5524B;
+  --accent-gradient: linear-gradient(135deg, #F47A6F 0%, #E5524B 55%, #C73E3A 100%);
+  --accent-soft: rgba(229,82,75,0.12);
+  --accent-glow: 0 12px 40px -8px rgba(229,82,75,0.30);
+  --on-accent: #FFFFFF;
 }
