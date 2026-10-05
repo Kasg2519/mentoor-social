@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="calculadora">
+<defs><filter id="w" x="-6%" y="-6%" width="112%" height="112%"><feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="5" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="6"/></filter></defs>
+<g filter="url(#w)" stroke-width="8">
+<g stroke="#F2593B" transform="translate(9,8)"><rect x="95" y="45" width="210" height="310" rx="36"/><rect x="125" y="80" width="150" height="68" rx="14"/></g>
+<g stroke="#1F36E0"><rect x="95" y="45" width="210" height="310" rx="36"/><rect x="125" y="80" width="150" height="68" rx="14"/><path d="M135 195h34M183 195h34M231 195h34M135 245h34M183 245h34M231 245h34M135 295h34M183 295h34"/></g>
+<g stroke="#1FA36A"><path d="M140 126l24-30 22 18 30-34"/><path d="M231 292v52"/></g><g stroke="#1A1208" stroke-width="6"><path d="M335 70l12-26M355 100l28-12M326 40l-6-22"/></g>
+</g></svg>

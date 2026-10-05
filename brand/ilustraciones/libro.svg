@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="libro">
+<defs><filter id="w" x="-6%" y="-6%" width="112%" height="112%"><feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="5" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="6"/></filter></defs>
+<g filter="url(#w)" stroke-width="8">
+<g stroke="#F2593B" transform="translate(9,8)"><path d="M200 110c-40-26-100-26-150-6v220c50-20 110-20 150 6 40-26 100-26 150-6V104c-50-20-110-20-150 6z"/></g>
+<g stroke="#1F36E0"><path d="M200 110c-40-26-100-26-150-6v220c50-20 110-20 150 6 40-26 100-26 150-6V104c-50-20-110-20-150 6z"/><path d="M200 110v220"/></g>
+<g stroke="#3FA9F5"><path d="M85 160q40-12 80 4M85 200q40-12 80 4"/><path d="M235 164q40-16 80-4M235 204q40-16 80-4"/></g><g stroke="#1FA36A"><path d="M120 252h40M240 252h40"/></g><g stroke="#1A1208" stroke-width="6"><path d="M200 70l-2-28M168 80l-16-20M232 80l16-20"/></g>
+</g></svg>

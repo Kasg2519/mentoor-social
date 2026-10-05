@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="celular-check">
+<defs><filter id="w" x="-6%" y="-6%" width="112%" height="112%"><feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="5" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="6"/></filter></defs>
+<g filter="url(#w)" stroke-width="8">
+<g stroke="#F2593B" transform="translate(9,8)"><rect x="125" y="40" width="150" height="320" rx="34"/></g>
+<g stroke="#1F36E0"><rect x="125" y="40" width="150" height="320" rx="34"/><path d="M180 66h40"/></g>
+<g stroke="#1FA36A"><circle cx="200" cy="205" r="52"/><path d="M176 205l18 20 34-42"/></g><g stroke="#3FA9F5"><path d="M60 120h44M60 150h30"/><path d="M300 270h44M312 300h32"/></g><g stroke="#1A1208" stroke-width="6"><path d="M310 90l10-24M336 112l26-10"/></g>
+</g></svg>
