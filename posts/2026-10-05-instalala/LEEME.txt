@@ -1,0 +1,3 @@
+Pieza del lun 5-oct-2026, estilo oscuro (el aprobado). Plantilla: templates/post-instalala.html (render: node templates/render-instalala.js).
+Textos de título y bajada tomados de mentoor.cl (brand/textos.md). Los pasos de instalación son los estándar de Safari y Chrome;
+confirmar en un teléfono que el menú de Chrome diga "Instalar app" (en algunos equipos dice "Agregar a pantalla principal").
