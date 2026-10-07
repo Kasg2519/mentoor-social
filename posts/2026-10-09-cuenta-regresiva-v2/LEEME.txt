@@ -1,3 +1,2 @@
-Publicar el vie 9-oct-2026. La cifra "52 dias" es valida SOLO ese dia (dia 1 PAES Regular: lun 30-nov-2026, segun demre.cl, verificado 7-oct).
-Si cambia la fecha de publicacion, recalcular y regenerar src/post.html.
-NOTA: la version anterior (posts/2026-10-09-cuenta-regresiva) decia 51 dias, que era un error: del 9-oct al 30-nov son 52.
+Publicar el vie 9-oct-2026 DESPUES DE LAS 15:00 (hora Chile), idealmente 18:00-21:00. La cifra "51 dias" coincide con la app, que cuenta dias completos hasta la PAES Regular dia 1: lun 30-nov-2026 15:00 (demre.cl, verificado 7-oct). Antes de las 15:00 del dia 9 la app muestra 52.
+Si cambia la fecha o la hora de publicacion, recalcular y regenerar src/post.html.
