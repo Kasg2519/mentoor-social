@@ -1,13 +1,32 @@
 <!doctype html><meta charset=utf-8><link rel=stylesheet href=base.css><style>
 .note{position:absolute;background:#FFE680;box-shadow:8px 12px 0 rgba(26,18,8,.18);padding:30px 36px;white-space:nowrap;font-family:'Kalam';font-size:40px;line-height:1.3}
 .note:before{content:'';position:absolute;top:-24px;left:50%;width:150px;height:40px;margin-left:-75px;background:rgba(255,160,160,.75);transform:rotate(-3deg)}
+.card{position:absolute;background:#fffdf5;box-shadow:6px 9px 0 rgba(26,18,8,.16);border:2px solid rgba(26,18,8,.15);padding:26px 34px}
+.card:before{content:'';position:absolute;top:-22px;left:50%;width:150px;height:40px;margin-left:-75px;background:rgba(255,160,160,.75);transform:rotate(-3deg)}
+.chip2{display:inline-block;font-family:'Patrick Hand';font-size:34px;border:3px solid var(--ink);border-radius:30px 24px 28px 22px;padding:2px 22px;margin-right:12px}
+.chip2.on{background:#FFD23A}
+.pt{position:absolute;font-family:'Kalam';font-weight:700;font-size:36px}
+.ep{position:absolute;font-family:'Patrick Hand';font-size:26px;white-space:nowrap}
 </style><body><svg width="0" height="0" style="position:absolute"><filter id="w"><feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="9"/></filter></svg>
 <div class=margin style="left:900px;background:rgba(80,120,220,.45)"></div>
 <div class="abs y" style="left:-400px;top:640px;width:1000px;white-space:nowrap;text-align:center;font-family:'Permanent Marker';font-size:74px;transform:rotate(-90deg);line-height:1">¿Sabes cuánto puntaje vas?</div>
+<div class=card style="left:230px;top:200px;width:650px;height:600px;transform:rotate(-1.2deg)">
+<div style="font-family:'Kalam';font-weight:700;font-size:44px">Mi progreso</div>
+<div style="margin:14px 0 8px;white-space:nowrap">
+<span class="chip2 on">CL</span><span class="chip2">M1</span><span class="chip2">M2</span><span class="chip2">CS</span><span class="chip2">HS</span></div>
+<div style="font-family:'Patrick Hand';font-size:28px;letter-spacing:2px;margin:14px 0 0">EVOLUCIÓN · COMP. LECTORA</div>
+<svg style="left:20px;top:190px" width="610" height="380">
+<path d="M30 20 L30 340 L590 340" style="stroke-width:4"/>
+<path d="M30 250 L590 250 M30 160 L590 160 M30 70 L590 70" style="stroke-width:1.5;stroke:rgba(26,18,8,.25)"/>
+<path d="M90 300 C 180 295, 210 180, 300 150 S 450 90, 530 70" style="stroke-width:9;stroke:#FFD23A"/>
+<path d="M90 300 C 180 295, 210 180, 300 150 S 450 90, 530 70" style="stroke-width:3"/>
+<circle cx="90" cy="300" r="15" style="fill:#fffdf5;stroke-width:5"/><circle cx="300" cy="150" r="15" style="fill:#fffdf5;stroke-width:5"/><circle cx="530" cy="70" r="15" style="fill:#fffdf5;stroke-width:5"/>
+</svg>
+<div class=pt style="left:80px;top:430px">603</div><div class=pt style="left:290px;top:280px">772</div><div class=pt style="left:525px;top:200px">799</div>
+<div class=ep style="left:50px;top:545px">Ensayo 1</div><div class=ep style="left:260px;top:545px">Ensayo 2</div><div class=ep style="left:480px;top:545px">Ensayo 3</div>
+</div>
 <div class="abs ink" style="left:230px;top:90px;white-space:nowrap;font-family:'Kalam';font-weight:700;font-size:50px;transform:rotate(1.5deg)">¿Llevas registro de tus ensayos?</div>
-<svg class=wob style="left:250px;top:190px" width="640" height="470"><path d="M20 440 L20 20 M20 440 L620 440"/><path d="M50 380 C 120 330, 160 360, 230 270 S 360 250, 430 160 S 520 90, 590 40" style="stroke-width:9"/><path d="M545 30 L592 38 L572 82"/><circle cx="230" cy="270" r="14"/><circle cx="430" cy="160" r="14"/></svg>
-<div class="abs y" style="left:320px;top:690px;font-family:'Permanent Marker';font-size:100px;transform:rotate(-3deg);line-height:1">tu avance</div>
-<div class=note style="left:290px;top:850px;width:560px;transform:rotate(2.5deg)">1. Anota tus ensayos<br>2. Mira cómo vas<br>3. Compárala con tu meta</div>
-<div class="abs ink" style="left:300px;top:1180px;font-family:'Kalam';font-size:40px;transform:rotate(-1deg)">Gratis en tu celular, en Mentoor.</div>
-<div class="abs ink" style="left:560px;top:1255px;font-family:'Kalam';font-weight:700;font-size:44px;transform:rotate(-3deg)">@mentoor.cl</div>
+<div class=note style="left:290px;top:900px;width:560px;transform:rotate(2.5deg)">1. Anota tus ensayos<br>2. Mira cómo vas<br>3. Compárala con tu meta</div>
+<div class="abs ink" style="left:300px;top:1215px;font-family:'Kalam';font-size:40px;transform:rotate(-1deg)">Gratis en tu celular. <span style='font-size:30px'>(Datos de ejemplo)</span></div>
+<div class="abs ink" style="left:600px;top:1275px;font-family:'Kalam';font-weight:700;font-size:44px;transform:rotate(-3deg)">@mentoor.cl</div>
 </body>
