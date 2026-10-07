@@ -1,0 +1,3 @@
+Publicar el vie 9-oct-2026. La cifra "52 dias" es valida SOLO ese dia (dia 1 PAES Regular: lun 30-nov-2026, segun demre.cl, verificado 7-oct).
+Si cambia la fecha de publicacion, recalcular y regenerar src/post.html.
+NOTA: la version anterior (posts/2026-10-09-cuenta-regresiva) decia 51 dias, que era un error: del 9-oct al 30-nov son 52.
