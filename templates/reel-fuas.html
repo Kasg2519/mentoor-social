@@ -1,0 +1,38 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../brand/redes.css">
+<style>
+*{box-sizing:border-box;margin:0}body{background:#000}
+.s{width:1080px;height:1920px;background:var(--bg);color:var(--text);font-family:var(--sans);padding:150px 88px 230px;position:relative;overflow:hidden;display:flex;flex-direction:column}
+.s::before{content:"";position:absolute;inset:0;background:radial-gradient(900px 900px at 100% 100%,rgba(245,158,11,.22),transparent 65%),repeating-linear-gradient(0deg,transparent 0 59px,rgba(255,255,255,.035) 59px 60px)}
+.s>*{position:relative}
+.top{display:flex;justify-content:space-between;align-items:center}
+.sign{display:flex;align-items:center;gap:20px}
+.logo{width:68px;height:68px;border-radius:22px;background:var(--logo-gradient);color:var(--logo-letra);font-weight:900;font-size:42px;display:flex;align-items:center;justify-content:center;box-shadow:var(--sombra-logo)}
+.sign b{font-size:36px;font-weight:800}
+.tag{font-size:24px;letter-spacing:5px;text-transform:uppercase;color:var(--accent);font-weight:700}
+.mid{margin:auto 0;display:flex;flex-direction:column;gap:44px}
+h1{font-weight:900;font-size:118px;line-height:1.04;letter-spacing:-3.5px}
+h1 em{font-style:normal;color:var(--accent)}
+p{font-size:52px;font-weight:500;color:var(--dim);line-height:1.25}
+.big{font-size:330px;font-weight:900;color:var(--accent);letter-spacing:-12px;line-height:.95}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:56px;padding:52px}
+.card b{display:block;font-size:64px;font-weight:900;line-height:1.1}
+.card span{font-size:40px;color:var(--text-muted);font-weight:500}
+.chips{display:flex;flex-wrap:wrap;gap:22px}
+.chip{font-size:46px;font-weight:800;padding:26px 42px;border-radius:999px;background:var(--accent-gradient);color:var(--on-accent)}
+.foot{margin-top:auto;font-size:30px;color:var(--text-muted)}
+.cta{background:var(--accent-gradient);color:var(--on-accent);border-radius:56px;padding:48px 52px;font-size:56px;font-weight:900;box-shadow:var(--accent-glow)}
+</style></head><body>
+<script>
+const head='<div class="top"><div class="sign"><div class="logo">M</div><b>Mentoor</b></div><span class="tag">Admisión 2027</span></div>';
+const sc=[
+['s1','<div class="mid"><h1>¿Quieres estudiar el próximo año y <em>no sabes cómo pagarlo?</em></h1></div>'],
+['s2','<div class="mid"><p>Existe el</p><div class="big">FUAS</div><p>Un solo formulario para postular a gratuidad, becas y créditos.</p></div>'],
+['s3','<div class="mid"><h1>Un formulario.<br><em>Tres ayudas.</em></h1><div class="chips"><span class="chip">Gratuidad</span><span class="chip">Becas</span><span class="chip">Créditos</span></div></div>'],
+['s4','<div class="mid"><h1>Es <em>gratis</em>, lo haces online y no necesitas haber rendido la PAES.</h1></div>'],
+['s5','<div class="mid"><p>Tienes hasta el</p><div class="big">22</div><h1>de <em>octubre</em></h1></div>'],
+['s6','<div class="mid"><div class="card"><b>¿Sin Registro Social de Hogares al día?</b><span>Igual puedes postular. Tenerlo actualizado te ahorra pasos.</span></div></div>'],
+['s7','<div class="mid"><h1>Guárdalo y mándaselo <em>a tu curso</em></h1><div class="cta">Más en @mentoor.cl</div></div><div class="foot">Fuente: Mineduc · fuas.cl</div>']
+];
+for(const [id,h] of sc){document.write('<div class="s" id="'+id+'">'+head+h+'</div>')}
+</script></body></html>

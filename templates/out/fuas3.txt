@@ -1,0 +1,17 @@
+file 'fuas3-s1.png'
+duration 4
+file 'fuas3-s2.png'
+duration 4
+file 'fuas3-s3.png'
+duration 5
+file 'fuas3-s4.png'
+duration 5
+file 'fuas3-s5.png'
+duration 5
+file 'fuas3-s6.png'
+duration 4
+file 'fuas3-s7.png'
+duration 7
+file 'fuas3-s8.png'
+duration 6
+file 'fuas3-s8.png'
