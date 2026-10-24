@@ -1,0 +1,13 @@
+file 'n44-s1.png'
+duration 4
+file 'n44-s2.png'
+duration 5
+file 'n44-s3.png'
+duration 6
+file 'n44-s4.png'
+duration 6
+file 'n44-s5.png'
+duration 7
+file 'n44-s6.png'
+duration 5
+file 'n44-s6.png'
