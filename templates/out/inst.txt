@@ -1,0 +1,13 @@
+file 'inst-s1.png'
+duration 4
+file 'inst-s2.png'
+duration 4
+file 'inst-s3.png'
+duration 5
+file 'inst-s4.png'
+duration 5
+file 'inst-s5.png'
+duration 6
+file 'inst-s6.png'
+duration 5
+file 'inst-s6.png'
