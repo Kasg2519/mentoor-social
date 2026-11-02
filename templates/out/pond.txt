@@ -1,0 +1,13 @@
+file 'pond-s1.png'
+duration 4
+file 'pond-s2.png'
+duration 5
+file 'pond-s3.png'
+duration 7
+file 'pond-s4.png'
+duration 6
+file 'pond-s5.png'
+duration 6
+file 'pond-s6.png'
+duration 6
+file 'pond-s6.png'
