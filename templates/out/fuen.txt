@@ -1,0 +1,13 @@
+file 'fuen-s1.png'
+duration 4
+file 'fuen-s2.png'
+duration 4
+file 'fuen-s3.png'
+duration 6
+file 'fuen-s4.png'
+duration 6
+file 'fuen-s5.png'
+duration 6
+file 'fuen-s6.png'
+duration 5
+file 'fuen-s6.png'
