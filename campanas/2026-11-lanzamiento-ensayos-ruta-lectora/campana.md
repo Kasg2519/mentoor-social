@@ -4,7 +4,7 @@ Para aprobación de Karina. No se ha publicado ni programado nada.
 
 **Mensaje central:** practica un poco cada día y llega con más confianza a la PAES. Leer mejor también te sirve fuera de la prueba.
 
-**CTA en todas las piezas:** Entra gratis a app.mentoor.cl
+**CTA en todas las piezas:** Entra gratis a mentoor.cl y descarga la app
 
 **Redes:** Instagram y TikTok. Facebook queda pendiente: ver las preguntas al final.
 
@@ -47,7 +47,7 @@ Todos los videos llevan voz humana grabada y subtítulos, usan capturas reales d
 | 3–8 s | Captura del inicio de la Ruta Lectora | "Por eso en Mentoor hay algo nuevo: la Ruta Lectora." |
 | 8–16 s | Los 3 pasos, uno por uno, sobre las capturas (texto, pregunta, explicación) | "Lees un texto corto, respondes 4 preguntas tipo PAES y ves por qué cada respuesta es la correcta." |
 | 16–22 s | "10 minutos al día" en ámbar | "Son unos 10 minutos. Como el gimnasio, pero para leer." |
-| 22–25 s | CTA | "Entra gratis a app.mentoor.cl." |
+| 22–25 s | CTA | "Entra gratis a mentoor.cl y descarga la app." |
 
 Versión B del gancho: "¿Te cuesta concentrarte cuando lees? Prueba esto."
 
@@ -58,7 +58,7 @@ Versión B del gancho: "¿Te cuesta concentrarte cuando lees? Prueba esto."
 | 3–10 s | Captura de Ensayos PAES | "En Mentoor puedes practicar las pruebas PAES como te acomode." |
 | 10–17 s | "Simulacro con reloj" / "10 preguntas con corrección al instante" | "Haz un simulacro con reloj o entrena 10 preguntas con corrección al instante." |
 | 17–22 s | Recuadro lila: "Ensayos de práctica. No son la PAES ni son oficiales. Tu % de aciertos no es puntaje PAES." | "Ojo: son ensayos de práctica. No son la PAES y tu porcentaje no es tu puntaje." |
-| 22–25 s | CTA | "Practica un poco cada día. Entra gratis a app.mentoor.cl." |
+| 22–25 s | CTA | "Practica un poco cada día. Entra gratis a mentoor.cl y descarga la app." |
 
 ### Video 3 · "Palabras que nunca has visto" (Ruta Lectora, Palabras, unos 20 s)
 | Tiempo | En pantalla | Voz |
@@ -66,7 +66,7 @@ Versión B del gancho: "¿Te cuesta concentrarte cuando lees? Prueba esto."
 | 0–3 s (gancho) | "incomprensible" en grande | "¿Qué haces si en la prueba aparece una palabra que nunca has visto?" |
 | 3–12 s | La palabra se parte: in (no) + comprens (entender) + ible (se puede) | "La partes en piezas: in es no, comprens es entender, ible es se puede. Que no se puede entender." |
 | 12–17 s | Captura de Palabras: "30 piezas" | "En la Ruta Lectora hay 30 piezas para deducir palabras sin diccionario." |
-| 17–20 s | CTA | "Entra gratis a app.mentoor.cl." |
+| 17–20 s | CTA | "Entra gratis a mentoor.cl y descarga la app." |
 
 Versión B: otra pieza de la app (por ejemplo, "bio" = vida, en biografía y simbiosis).
 
@@ -100,7 +100,7 @@ Hay una vista rápida de cada carrusel en sheet-ruta-lectora.png y sheet-ensayos
 | H2 | Pregunta | ¿Qué te cuesta más cuando lees un texto largo? | Caja de preguntas. Respondemos con estrategias de la app, sin mostrar nombres. |
 | H3 | Quiz | ¿Qué significa "incomprensible"? | A) Que no se puede entender ✔ · B) Que es muy largo · C) Que es antiguo |
 | H4 | Encuesta | ¿Cómo prefieres practicar? | "Simulacro con reloj" / "10 preguntas" |
-| H5 | Pregunta | ¿Qué habilidad quieres entrenar primero: localizar, interpretar o evaluar? | Caja de preguntas + link a app.mentoor.cl |
+| H5 | Pregunta | ¿Qué habilidad quieres entrenar primero: localizar, interpretar o evaluar? | Caja de preguntas + link a mentoor.cl |
 
 ---
 
@@ -110,30 +110,30 @@ Hay una vista rápida de cada carrusel en sheet-ruta-lectora.png y sheet-ensayos
 > ¿Lees un texto y al final no te acuerdas de nada? Le pasa a mucha gente.
 > En Mentoor abrimos la Ruta Lectora: un texto corto, 4 preguntas tipo PAES y la explicación de cada respuesta. Unos 10 minutos al día, como el gimnasio, pero para leer.
 > Y lo que aprendes te sirve también fuera de la prueba.
-> Entra gratis a app.mentoor.cl
+> Entra gratis a mentoor.cl y descarga la app
 >
 > #PAES #CompetenciaLectora #RutaLectora #LecturaDiaria #CuartoMedio
 
 **C2 · Carrusel Ensayos PAES**
 > ¿Tienes 10 minutos o tienes dos horas? En Mentoor puedes practicar todas las pruebas PAES: simulacro con reloj o entrenamiento de 10 preguntas con corrección al instante.
 > Son ensayos de práctica: no son la PAES ni son oficiales, y tu porcentaje de aciertos no es puntaje PAES. Matemática, Historia y Ciencias están en piloto, con revisión docente pendiente.
-> Entra gratis a app.mentoor.cl
+> Entra gratis a mentoor.cl y descarga la app
 >
 > #EnsayoPAES #PAES #PAES2026 #TipsPAES #CuartoMedio
 
-**Video 1** · Como el gimnasio, pero para leer 📖 Un texto corto, 4 preguntas y la explicación de cada una. Entra gratis a app.mentoor.cl
+**Video 1** · Como el gimnasio, pero para leer 📖 Un texto corto, 4 preguntas y la explicación de cada una. Entra gratis a mentoor.cl y descarga la app
 #CompetenciaLectora #PAES #RutaLectora #LecturaDiaria #EstudiarEnChile
 
-**Video 2** · Simulacro con reloj o 10 preguntas: tú eliges. Son ensayos de práctica, no la PAES. Entra gratis a app.mentoor.cl
+**Video 2** · Simulacro con reloj o 10 preguntas: tú eliges. Son ensayos de práctica, no la PAES. Entra gratis a mentoor.cl y descarga la app
 #EnsayoPAES #PAES #TipsPAES #TercerMedio #CuartoMedio
 
-**Video 3** · Una palabra que nunca has visto no te tiene que frenar. Pártela en piezas 🧩 Entra gratis a app.mentoor.cl
+**Video 3** · Una palabra que nunca has visto no te tiene que frenar. Pártela en piezas 🧩 Entra gratis a mentoor.cl y descarga la app
 #CompetenciaLectora #PAES #Vocabulario #TipsPAES #RutaLectora
 
-**Post simple (18 nov, C2 lámina 4)** · Para que lo tengas claro: nuestros ensayos son de práctica. No son la PAES ni son oficiales, y tu porcentaje no es puntaje PAES. Sirven para entrenar y llegar con más confianza. Entra gratis a app.mentoor.cl
+**Post simple (18 nov, C2 lámina 4)** · Para que lo tengas claro: nuestros ensayos son de práctica. No son la PAES ni son oficiales, y tu porcentaje no es puntaje PAES. Sirven para entrenar y llegar con más confianza. Entra gratis a mentoor.cl y descarga la app
 #EnsayoPAES #PAES #CuartoMedio
 
-**Historias** · cada una lleva el sticker de enlace "Entra gratis" a app.mentoor.cl.
+**Historias** · cada una lleva el sticker de enlace "Entra gratis" a mentoor.cl.
 
 **Para familias y orientadores** (fijar como comentario en C1): "Si acompañas a un estudiante, la Ruta Lectora es una rutina corta de 10 minutos al día. En Chile, 1 de cada 3 estudiantes de 15 años no alcanza el nivel básico de lectura (PISA 2022, OCDE). Un poco cada día ayuda."
 
